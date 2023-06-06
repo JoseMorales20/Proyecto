@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <style>
         :root {
-            --primary-clr: #0026ff;
+            --primary-clr: #e4c0fa;
         }
 
         * {
@@ -18,7 +18,7 @@
             display: flex;
             align-items: center;
             justify-items: center;
-            background-color: #e2e1dc;
+            background-color: #e4c0fa;
         }
 
         .container2 {
@@ -29,7 +29,7 @@
             padding: 5px;
             color: #fff;
             border-radius: 10px;
-            background-color: #373c4f;
+            background-color: #B7A6F6;
         }
 
         .left {
@@ -47,7 +47,7 @@
             justify-content: space-between;
             color: #878895;
             border-radius: 0 5px 5px 0;
-            background-color:;
+            background-color: #8698D9;
         }
 
             .calendar.month {
@@ -357,19 +357,19 @@
                         <div class="dia">7</div>
                         <div class="dia evento">8</div>
                         <div class="dia">9</div>
-                        <div class="dia">10</div>
+                        <div class="dia evento">10</div>
                         <div class="dia">11</div>
-                        <div class="dia evento">12</div>
+                        <div class="dia">12</div>
                         <div class="dia">13</div>
-                        <div class="dia">14</div>
+                        <div class="dia evento">14</div>
                         <div class="dia today active">15</div>
-                        <div class="dia">16</div>
+                        <div class="dia evento">16</div>
                         <div class="dia">17</div>
                         <div class="dia">18</div>
-                        <div class="dia evento">19</div>
-                        <div class="dia">20</div>
-                        <div class="dia">21</div>
-                        <div class="dia">22</div>
+                        <div class="dia">19</div>
+                        <div class="dia evento">20</div>
+                        <div class="dia evento">21</div>
+                        <div class="dia evento">22</div>
                         <div class="dia">23</div>
                         <div class="dia evento">24</div>
                         <div class="dia">25</div>
@@ -412,6 +412,17 @@
                         <h5>Motivo: Cirugia</h5>
                     </div>
                     <div class="duracion">12:30AM - 13:30AM</div>
+                </div>
+            </div>
+            <div class="agendas">
+                <div class="agenda">
+                    <div class="titulo">
+                        <i class="fas fa-circle"></i>
+                        <h4 class="cita">Chimuelo</h4>
+                        <h5>Tutor: Jose Morales</h5>
+                        <h5>Motivo: Cirugia</h5>
+                    </div>
+                    <div class="duracion">15:00AM - 16:00AM</div>
                 </div>
             </div>
         </div>

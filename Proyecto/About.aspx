@@ -17,13 +17,13 @@
         }
 
         .container-2 {
-            background-color: cornflowerblue;
+            background-color: #8698D9;
             margin: auto;
             width: 90%;
             max-width: 400px;
             padding: 4.5em 3em;
             border-radius: 10px;
-            box-shadow 0 5px 10px -5px rgb(0 0 0 / 30%)
+            box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%)
         }
 
         .btn {
@@ -107,9 +107,5 @@
                 <button type="submit" class="btn btn-primary">Registrar</button>
             </div>
         </div>
-
-
-
-
     </body>
 </asp:Content>
