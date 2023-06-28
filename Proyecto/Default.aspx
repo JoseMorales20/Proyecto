@@ -12,6 +12,7 @@
                     <th scope="col">Nombre</th>
                     <th scope="col">Apellido</th>
                     <th scope="col">Paciente</th>
+                    <th scope="col">hora</th>
                 </tr>
             </thead>
             <tbody>
@@ -20,6 +21,7 @@
                     <td>jose</td>
                     <td>Morales</td>
                     <td>mani</td>
+                    <td>15:00</td>
                     <td><button type="button" class="btn btn-primary">Atendido</button>
                         <button type="button" class="btn btn-danger">Elminar</button>
                         <button type="button" class="btn btn-secondary">Reprogramar</button>
@@ -33,6 +35,7 @@
                     <td>Jacob</td>
                     <td>Thornton</td>
                     <td>@fat</td>
+                    <td>15:00</td>
                     <td><button type="button" class="btn btn-primary">Atendido</button>
                         <button type="button" class="btn btn-danger">Elminar</button>
                         <button type="button" class="btn btn-secondary">Reprogramar</button>
@@ -43,6 +46,7 @@
                     <td>Larry</td>
                     <td>the Bird</td>
                     <td>@twitter</td>
+                    <td>15:00</td>
                     <td><button type="button" class="btn btn-primary">Atendido</button>
                         <button type="button" class="btn btn-danger">Elminar</button>
                         <button type="button" class="btn btn-secondary">Reprogramar</button>
@@ -55,5 +59,7 @@
 
 
     </main>
+
+    
 
 </asp:Content>
