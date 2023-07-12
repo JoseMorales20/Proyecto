@@ -14,7 +14,7 @@ namespace Proyecto
 
         }
 
-        protected void Login1_Authenticate(object sender,AuthenticateEventArgs e)
+        protected void Login1_Authenticate1(object sender, AuthenticateEventArgs e)
         {
             string user = Login1.UserName;
             string pass = Login1.Password;
@@ -22,13 +22,13 @@ namespace Proyecto
             if (AutenticarUsuario(user, pass))
             {
                 e.Authenticated = true;
-                Response.Redirect("~/About.aspx");
+                Response.Redirect("~/Default.aspx");
             }
         }
 
         private bool AutenticarUsuario(string user, string pass)
         {
-            return (user == "admin" && pass == "pass"); 
+            return (user == "admin" && pass == "pass");
         }
     }
 }

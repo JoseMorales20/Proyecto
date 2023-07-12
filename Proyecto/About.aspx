@@ -33,8 +33,6 @@
             margin: 0 auto;
             margin-top: 15px
         }
-
-        }
     </style>
     <body>
         <div class="container-2">
@@ -102,10 +100,15 @@
                     <label class="form-label">Edad</label>
                     <input type="text" class="form-control" placeholder="Edad">
                 </div>
+                <div class="col-12">
+                    <label class="form-label">Fecha de ingreso</label>
+                    <asp:TextBox runat="server" CssClass="form-control" TextMode="Date" ID="tbFecha"></asp:TextBox>
+                </div>
             </div>
             <div class="col-12">
-                <button type="submit" class="btn btn-primary">Registrar</button>
+                <asp:Button runat="server" CssClass="btn btn-primary" ID="btnIngresar" Text="Ingresar" OnClick="btnIngresar_Click" />
             </div>
+
         </div>
     </body>
 </asp:Content>

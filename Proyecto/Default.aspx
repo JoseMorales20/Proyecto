@@ -22,44 +22,45 @@
                     <td>Morales</td>
                     <td>mani</td>
                     <td>15:00</td>
-                    <td><button type="button" class="btn btn-primary">Atendido</button>
-                        <button type="button" class="btn btn-danger">Elminar</button>
-                        <button type="button" class="btn btn-secondary">Reprogramar</button>
+                    <td>
+                        <asp:Button runat="server" CssClass="btn btn-primary" ID="btnReprogramar" Text="Reprogramar" OnClick="btnReprogramar_Click" />
+                        <asp:Button runat="server" CssClass="btn btn-danger" ID="btnEliminar" Text="Eliminar" OnClick="btnEliminar_Click" />
                     </td>
-                    
+
 
 
                 </tr>
                 <tr>
                     <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                    <td>15:00</td>
-                    <td><button type="button" class="btn btn-primary">Atendido</button>
-                        <button type="button" class="btn btn-danger">Elminar</button>
-                        <button type="button" class="btn btn-secondary">Reprogramar</button>
+                    <td>Valentina</td>
+                    <td>Morales</td>
+                    <td>tobi</td>
+                    <td>14:30</td>
+                    <td>
+                        <asp:Button runat="server" CssClass="btn btn-primary" ID="Button1" Text="Reprogramar" OnClick="btnReprogramar_Click" />
+                        <asp:Button runat="server" CssClass="btn btn-danger" ID="Button2" Text="Eliminar" OnClick="btnEliminar_Click" />
                     </td>
                 </tr>
                 <tr>
                     <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                    <td>15:00</td>
-                    <td><button type="button" class="btn btn-primary">Atendido</button>
-                        <button type="button" class="btn btn-danger">Elminar</button>
-                        <button type="button" class="btn btn-secondary">Reprogramar</button>
+                    <td>David</td>
+                    <td>Morales</td>
+                    <td>Atenea</td>
+                    <td>11:00</td>
+                    <td>
+                        <asp:Button runat="server" CssClass="btn btn-primary" ID="Button3" Text="Reprogramar" OnClick="btnReprogramar_Click" />
+                        <asp:Button runat="server" CssClass="btn btn-danger" ID="Button4" Text="Eliminar" OnClick="btnEliminar_Click" />
+
                     </td>
                 </tr>
             </tbody>
         </table>
 
-       <div></div>
+        <div></div>
 
 
     </main>
 
-    
+
 
 </asp:Content>
